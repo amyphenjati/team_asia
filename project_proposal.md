@@ -1,5 +1,7 @@
 ## **Team Thailand Project Proposal**
 
+![](https://www.bestfoodfacts.org/wp-content/uploads/2018/12/best-food-facts-hero-image-groceries.jpg)
+
 ### **Team Members:**
 Amy Phenjati    
 Hero Pathomsak  
@@ -10,6 +12,9 @@ Jan Sirimongkolkasem
 The main idea of our project is to develop a **text detection** program from an image. More specifically, we hope to create a web application that allows users to take a photo of a grocery product&#39;s **name and expiration date** , which will be read as a text input to be stored in a database. Also, the application will **alert** users on products that are close to expiring. The minimum viable product is a functional web application that has the above features. However, a stretch goal for the project is an iOS or Android application version of the program.
 
 In a more personal tone, the objective of this program is to automate an everyday task and reduce waste as we, the team members, share a common struggle of finding old grocery products in the fridge/shelve and having to throw them out – regretting and being mad at ourselves for &quot;forgetting about them.&quot;
+
+![](https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/expiration-date-4643-preview-1566829105.jpg)
+
 
 **2. Learning Goals: Since this is a team project, you may want to articulate both shared and individual learning goals.**
 
@@ -62,3 +67,7 @@ OpenCV: to work with images using IP webcam
 Pytessaract for optical character recognition (OCR)
 
 Progressive Web App
+
+![](https://files.microscan.com/Technology/OCR/ocr_examples.jpg)
+
+
