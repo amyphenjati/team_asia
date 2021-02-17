@@ -28,25 +28,19 @@ We are aware that our knowledge of coding is very limited. Hence, we will be con
 | Week 1   | Idea generation    | Narrowing down the scope and determining our project idea, doing preliminary research |
 | Week 2   |
 |          |
-|          |
 | Week 3   |
-|          |
 |          |
 | Week 4   |
 |          |
-|          |
 | Week 5   |
-|          |
 |          |
 | Week 6   |
 |          |
-|          |
 | Week 7   |
-|          |
 |          |
 | Week 8   | Project completion | Fix minor bugs and finalize our project, ready to be used and presented to the class  |
 
-5. **Collaboration plan: How do you plan to collaborate with your teammates on this project? Will you split tasks up, complete them independently, and then integrate? Will you pair program the entire thing? Make sure to articulate your plan for successfully working together as a team. This might also include information about any software development methodologies you plan to use (e.g. agile development). Make sure to make clear why you are choosing this particular organizational structure.**
+1. **Collaboration plan: How do you plan to collaborate with your teammates on this project? Will you split tasks up, complete them independently, and then integrate? Will you pair program the entire thing? Make sure to articulate your plan for successfully working together as a team. This might also include information about any software development methodologies you plan to use (e.g. agile development). Make sure to make clear why you are choosing this particular organizational structure.**
 
 The organizational structure we will be adapting is a combination of individual research, pair, and group programming sessions. Individual research will be done in the earlier stages of the project. The choice to assign this task individually is to widen the scope of our research as we will now have three, not one, parties conducting the research. After our preliminary research, we will be applying the pair and group programming system as we believe coming up with the code is a crucial part of the project. As mentioned above, our team is able to set up face-to-face meetings, thus, we hope to meet on a weekly basis and prior to turning in our deliverables.
 
