@@ -23,24 +23,24 @@ We are aware that our knowledge of coding is very limited. Hence, we will be con
 
 **4. Project schedule: You have 8 weeks (roughly) to finish the project. Sketch out a rough schedule for completing the project. Depending on your project, you may be able to do this in great specificity or you may only be able to give a broad outline. Additionally, longer projects come with increased uncertainty, and this schedule will likely need to be refined along the way.**
 
-| **Week** | **Task** | **Details** |
-| --- | --- | --- |
-| Week 1 | Idea generation | Narrowing down the scope and determining our project idea, doing preliminary research. |
-| Week 2 | Consulting | Consult with Professor Li on how to take on the project. Have drafted steps of how to approach the task. |
-| Week 3 | Research | Research and learn about the open sources on the internet. Get familiar with the two libraries. |
-| Week 4 |
- |
- |
-| Week 5 |
- |
- |
-| Week 6 |
- |
- |
-| Week 7 |
- |
- |
-| Week 8 | Project completion | Fix minor bugs and finalize our project, ready to be used and presented to the class |
+| **Week** | **Task**           | **Details**                                                                                              |
+| -------- | ------------------ | -------------------------------------------------------------------------------------------------------- |
+| Week 1   | Idea generation    | Narrowing down the scope and determining our project idea, doing preliminary research.                   |
+| Week 2   | Consulting         | Consult with Professor Li on how to take on the project. Have drafted steps of how to approach the task. |
+| Week 3   | Research           | Research and learn about the open sources on the internet. Get familiar with the two libraries.          |
+| Week 4   |
+|          |
+|          |
+| Week 5   |
+|          |
+|          |
+| Week 6   |
+|          |
+|          |
+| Week 7   |
+|          |
+|          |
+| Week 8   | Project completion | Fix minor bugs and finalize our project, ready to be used and presented to the class                     |
 
 **5. Collaboration plan: How do you plan to collaborate with your teammates on this project? Will you split tasks up, complete them independently, and then integrate? Will you pair program the entire thing? Make sure to articulate your plan for successfully working together as a team. This might also include information about any software development methodologies you plan to use (e.g. agile development). Make sure to make clear why you are choosing this particular organizational structure.**
 
