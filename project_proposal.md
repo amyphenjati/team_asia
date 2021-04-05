@@ -4,7 +4,7 @@
 
 ### **Team Members:**
 Amy Phenjati    
-Jan Sirimongkolkasem
+Jan Sirimongkolkasem    
 Sammi Xu
 
 **1. The Big Idea: What is the main idea of your project? What topics will you explore, and what will you generate? What is your minimum viable product? What is a stretch goal?**
@@ -32,7 +32,7 @@ We are aware that our knowledge of coding is very limited. Hence, we will be con
 
 | **Week** | **Task**           | **Details**                                                                                              |
 | -------- | ------------------ | -------------------------------------------------------------------------------------------------------- |
-| Week 1   | Idea generation, Consulting, Research    | Narrowing down the scope and determining our project idea, doing preliminary research. Have drafted steps of how to approach the task. Learn about the open sources on the internet. Get familiar with the libraries.                   |
+| Week 1   | Idea generation, Consulting, Research    | Narrowing down the scope and determining our project idea, doing preliminary research.     Have drafted steps of how to approach the task.     Learn about the open sources on the internet. Get familiar with the libraries.                   |
 | Week 2   | Initial test run         | Write initial codes and perform test run. In class demo day  |
 | Week 3   | Project completion           | Fix minor bugs and finalize our project, ready to be used and presented to the class                  |
 |          |
