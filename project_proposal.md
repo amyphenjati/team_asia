@@ -1,33 +1,30 @@
-## **Team Thailand Project Proposal**
+## **Team Asia Project Proposal**
 
-![](https://www.bestfoodfacts.org/wp-content/uploads/2018/12/best-food-facts-hero-image-groceries.jpg)
+![](https://i0.wp.com/www.mydr.com.au/wp-content/uploads/2021/02/AdobeStock_284992944-scaled.jpeg?resize=1210%2C700&ssl=1)
 
 ### **Team Members:**
 Amy Phenjati    
-Hero Pathomsak  
 Jan Sirimongkolkasem
+Sammi Xu
 
 **1. The Big Idea: What is the main idea of your project? What topics will you explore, and what will you generate? What is your minimum viable product? What is a stretch goal?**
 
-The main idea of our project is to develop a **text detection** program from an image. More specifically, we hope to create a web application that allows users to take a photo of a grocery product&#39;s **name and expiration date** , which will be read as a text input to be stored in a database. Also, the application will **alert** users on products that are close to expiring. The minimum viable product is a functional web application that has the above features. However, a stretch goal for the project is an iOS or Android application version of the program.
+The main idea of our project is to develop a **chatbox** that will present a questionnaire related to mental illness. More specifically, we hope to create a web application that allows users to **self-diagnose** if they need to seek professional help. Also, the web application will provide **information on depression and help centers**. The minimum viable product is a functional web application that has the above features. However, a stretch goal for the project is a consultation chatbox that can classify more than just depression symptoms.
 
-In a more personal tone, the objective of this program is to automate an everyday task and reduce waste as we, the team members, share a common struggle of finding old grocery products in the fridge/shelve and having to throw them out – regretting and being mad at ourselves for &quot;forgetting about them.&quot;
+In a more personal tone, the objective of this program is to automate a helper. Some people might be shy to confront their close ones, but this chatbox will be their solution. Our team members share a common belief in the importance of this issue and see how controversial it is in some countries. We want to build a trusting solution for people who needed it.
 
-![](https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/expiration-date-4643-preview-1566829105.jpg)
+![](data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBIVEhIVEhIZGRgaHBgYGBgZGBIYGBkcHBkaGhgYHBgcIy4lHB8rIRgYJzgmKzAxNTU1HCQ9QDs0Py40NTQBDAwMEA8QHhISGjErJCw0NDQ0NDQ0NDQ0NjY0NDQ0NDQ0NDQ0NDQ0MTQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIAKgBLAMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAAAgMBBAUGB//EADgQAAICAAQEBAUDAwIHAQAAAAECABEDEiExBEFRYQUicYEGMpGhsRNCwVLR8BThYnKCkrLC8SP/xAAaAQEBAQEBAQEAAAAAAAAAAAAAAQMCBAUG/8QAIxEBAQACAgICAwADAAAAAAAAAAECEQMhEjFBUQQiYRMzcf/aAAwDAQACEQMRAD8A+XyVittb37dKkZlTRBHLWZPexEkwJ83ftvvtykYCIiAiIgJYLKEf0m+9GgR9alcngkZhmNA6H0PP239oEIgjrEBERAREQEREBERAREQEREBERAREQN3wnhs+Kub5FpnOYJS2B8xIA1IG43lvi+JeIUwy5w8MkKrknISQHAza1m016Te4VDw2AcRqDuDkZDbUQQtOPKKYBiFLGtGAnDxcRyWzbsQ50UWTZBoaD5rrvJO7tzO7tBmJJJ1J1JmIiV0Tp+HeEPjYbsrAMKKKaGYXTNZ5AkCxeuhrS9fw7hi7/JmUVmAZUPm0UAsQMxNUOdc5t8dx2uGiYrZEVfMAUYeXRcqms6g5Swqzvtclt9RLfpo4ueqdychKqpYsAb81a0BfTeUEwa5ChyHTtMSqREQEREDK1YvaDMSQ1FVrfv6QIxEQEREBERAsxrNMf3D7jQ+/P3lcmtFWHMURvt+7+DfaQgIiICIiAiIgIiICIiAiIgIiICXcHgh3RC2UE6tpoOZ1IH1IEpnZ8LZcHOWdkfI2ZHR1JUFWXIylSrEhQBqDRvTQy3ovpq+J+GvgNkZgwOZhlLVQNZiNtQRqLG4vQzSdySSdzJNiPqWPzbk8xZOnQXK5Z/SEkiEkBQSTsACSfYSM6fhXE4aAsSVxFV9azK6kAZPmDI2ujKRVRboqfD+L5MAYaBg4sKwrQF85Obftl1GgYUZzGYUAB6nmSf4lmLivmZm+ZxZJ3o/yR+e8okkSQiIlUiIgIiICZBmIgSI0u+fv1uRmVqxe3ODAxERAREQJ4b0b9QeehFHT0MxiJlYqeRqRnY8D4rJiIKUB/KXIQMGWm8rnUWAoqwDm35yW6S9OPE2fEcLJiuoIOt2AAPMA1UCQKutCRpvNaVSIiAiIJgIlD4x5SJxW6zrxrO8uLZiay4plqYoMXGrjyY1ZEROXZERAswMFnZUQWx2Ar1O+m1zr+OYgT/8ADDxMRl0Z1csxVgtiiQN8xJAsGlN9NPw3jcPDD5kbMSjJiIQroVuyL0IN0Rz6zWxeIdmZ3NswosR6DStBoANOU51up8q2ck2egHsBQkYl/B8I+K4TDFnfdRQ5m2IHMc50rd8D4QviZ6wzlshcUNkc0dNNaXc1tQ2FkaWPka3RSi6ABmzknc6gAfbp1nQ8S4zy/wCmTKMJWtSQ+dRd04b9wN3pzIBqclqs1tyveSfaT7GYkknUmYiJVIiICWJhEi/5H95FV31Gn37CYdrJNAdhtAxERAREQEmpJpQOenWzpVyEQESRGl3re38za4PgC6u5dEUbF2yhyN1XmSAQTyAOsbGnECICW4LHWjtTgGiCV/2J+kqkkaiDV0Qa69oHS8W4pMVUfOS48rKQ2xtyylmZiAxI1I3FDecudHhOFwSuKcRnDADIigsSWrJdA3ueY5TSx8F0Yo6lWFWDuLAP4Ikn0k+lcREqk18V70lmM1Cd/wCGfhkYwGNjfJflQbvXMnkv5nW5JuseTK2+MaPg3w7i8QjPYRADlZh8xHIDp1M4s+ieI/rcQf8AT8LSYK+TExKpdNCi1vWxr0lifDvCpgnCKBiazOaz31B/b6Cc+evbPx36fN4nd8d+H2wBnQl05/1J0utx3nCncss3HNml+C96GXTSE2sN7Eljfjy31U4iJy1AJN3uuwofn8kmEcqbG9EA9LFX9DIQJKhN0CaBJoE0BuT2naxHXh8LDClS5BYYmGSreddmaiMRBZFAjUEGc84OPg/p4gDJmXOjrr5Tag5hoDv3keJ4pmxC5RVLDyhVCqo2tQOeh16kmS9pe1LvfUsSSzHUknv/AJZMriJVIiSwwCQCaFgE0TQvU0NTUDZ8N4UO5sEqotwCQ1EhRl0PmzMtWK60NZLxBMH9Urh+VRYNlyBXQN5geRFnW6NTpeIcThYSfpcKSSQCcQMbGt5gV2YgkEjZTRvlw3b9qm1BsaVfK5J32k77YZ7rsK/zvIxEqkSTgX5TY5Xv6GRgIiICIiBlTqLF9us3vCOMGFihsqkHy+b9oYi2uuQvbWiaqaEkpJpb0vnte13y/wBos2V0PFOCUPiNguHRQHdlygIXcgJoSOmgJ37Ezmzr8HjB1CYpsoCERmCYZu7Z25FR7kADlOdxmAyYjo1WDyuqIzAi9aojfXrrJL8JPpTERKro+FcTkxEJdgrA4bhCQxXylVBXWiwUWNdJHxvhP0sZlCFVNMgYqxIOhNgn9wbc31mrw51Iq7oijRtTYIPI1Y95v+L8fh4q4ZVWzjcsSSBWq5yxzeayKCgXtrJ8p8uXERKqnGBJAG50A7nafWOC4YJhYeGNlVV+g1nzz4a4QYvFoG2S3I65aofUj6T6XOc76jD3lapdqpUH05dhIOgC67yx2CjuZrMxJszN0hiIrKysLUggg7EHcT5p4rwRwcV8M7A2p6qflP8AnSfSnetALM8x8ZcCSiY2lr5GroflP10/6p3x5aunGc3NvIyeE9GQibs5dXbdiRQ2BLcN8pBrbUevI/WcPZLubHewo5C/qTqfx9JueF8AXxFDaCs4tWOcB1UhRpmGpsjYBuk0Jt4XGYmRsMkMrUBn8wTkSpPyaaacvac3fwX+L/FMcOzjDXJhigyhiUZwSMygabUAQBot0Npz3Yk2YerIBJHK/wA1IyyaIREEwqaYTNZA0GrHkourPad58HhUwmwXJd7LoyL5mJFCiAbU+Ug3RG+Ugg14mD/pkw2NriakOjh0xNQf03FgooBW9CGB+vIx8RizM1hyTmoBQL5ADbc6cpPbj2hmoUCdQM3rvXptIREroiIgSRqN0D2O0PV+W678u185GSVyCCIEYk3IJ8ortv612kICIiAiIgWcPiKrIxs5WUkA1YBvRtwdJ0/EOK/1OIiYGCLvy5VIdiQM1jMaGazqTvZO85IM2+B4psNywHkbyuKzKVsNVE6kUCAeklnylny1XQgkHcEg0QRpodRvIzq+K8Ocquq2pLE4h+fEzsSHcAUgY3lXer3nKll2srKsQQRuNRJYoAY5dtx7617be0hLDZQH+nTvRsj75vrArgmJDF2MqZXU29F8A4d4+M39KV/3MD/6z3c8t8BcKVwcTEI+dqHomn5JnqZnnf2YY+nH47iTnIuhsPbfWa+DieYEG+sudLJ9YTD1EyaRtFdQeYmrxPBfqI6viEqwIqgPT1qbcAwj5ZxWAyO6P8ykg/399/eVT2XxV4O7lcXCXMwGV1G5A2Yda1+08aRPVjfKbYZTVbGA2lTYL+ULXMk9zNLDYBlJFgEEja+0y2KxOp1P59pbi0x5dTVjZkzlyit9yenQD8/SdzgPBAMNWxCc51G1L0sEa1+Zy+P4FsJgDqDs3XsehkuNi4fkYZ5eMvbUiInLdkToYDYnCY94mH5lBBUnbMt6MLAYWDz77yfhWBhhWxncUuZcmUOQShyuQdNz5QQQStEjQyjjOKLtmObIC/6aFyQgOtAchtt6Sb30n8V8Tjs7FnBs6oLNItkgDoOg73NaIlUiIgIiICIiBlWIIINEc5JjmOi6nkOvOhy9JCAYG3wXDIyYrO+VUUUQLJdtEBFfLobPLSUcRw7ocrijQNWLAO11t/8AJLCxn/UVlAzA6aKQT3B0N8xznV4PDTif1FbKjjznEYszszMc4Nn5NRvtXMmS3SW6cSJfxPCYmHX6mGyXtmBF1V113EolUmQZiIHT4PxP9PDxMNkGIpBCZjapd2VBGl2DpRNTmSQIo6a8j+RUjEholmFVkHmCOe/7dBvrUrmQYGJt8D4biY5KpXSz15CUY41vTzebTbXcexse09b8JYNIrH/ib66D7S/1jzZ3HGSfN09HwfDrh4aYa/KqhR7c5ji+ICLfM7STY6D9w/M5XHks5bloB/nrOMcbb28/PzTHD9b2cM12OcvVNZzkcg2J0cHGDDvzEcmGruOPxueZTxvuKH4oWQiZiOfK5PBxnJAZB6g/xLRhLyHsNpNVA2mXT32466iGO9KTPl/FG8TEI/qb/wAjPc/EPiATCbKddh/zH+2pnglqxd1zreuc9HHjrF47l5ZWz1Oks4y5a1uyewFAfc/bpOr8OcFnxC5HlQA/9R+X+85TEsxoDU6AUALOgE9J8M0ExVBsZhryPl3/ADO4z58rjhbHfZ7mtx3DDEwyh9Qeh5GXKJYBOnz8crjZlHicbBZGKuKI5Sudb4iwyMRWrQqBfcE2PuJy0WzuB3MyvT73Fn54TL7FXc6UK50TZ2Ew5sk1XYbTLtdaAaAaSMjQiIgIiICIiAiIgIiICWLitnRg1MCpVtAQQfKSeo01MriBscbxLu9vQKjKFACqo3pVGg1JPckma8nmJoE9rPIf2mHQqaP+dweYgRiIgJNra2J157We/eQiAiSer0uu/wB5GBscMisUBH7wDv8AKxA9tfzPcYKBVUAVpPG+C4JfHw0GxPm9AQfyBPazrF8382/tITDCwRMxO3hc+4DEbGYc6n1MjcrPbbTjHG9GRxOKdtLr0mtcjjpmRlBqwRY5XznPjj700/zZ2auV08v45xv6j5VPlSwO55n+JzwwykVqSNdNAOnqfxO4nw6P3Yn0X+5myPAcPPmLNXJaUDQaX/Mr1Y83HjNSvNALlHNidug5DuTPW+B8IcPDAbRmOYjp0H0kuF8OwsM2q6/1HU+3SbqHUSyMebn8p4z02IiIYOT8QreGn/ONemhnnnbTKNgTrVE9zPX+JYGfCdBuQCPUagTxszy9vrfg5S8fj9UiInL2kREBERAREQEREBERAREQEkDdAnT60PSRiBN8MqdfUEbEdQZCZHK9pLESudg7Hr7cj2gQiIgSVqvvpL+G4DExDSITsb2UA7G5rT2ngXDlMBQwKk5mII1snS/ap1Jthz8v+PHc9qvBvCjg5mdgWYAaXQHSzvOs/Xr/AIfvcjJcvT+Z3rT5Oedzy8svaMhjPSkycxiJYIhnXMuLmGFGpi50ySuLkbgQLE2bTX8Dmfx9Zhnuu2gmcQ0SAdNPcj/e5XcFSuTwRZlVyzAbX1gntszO3rrcDTrehH95iR2TyPi3D5MVwNj5h77/AHueunE+JMLy4b9CVPvqPx95zlOnr/Dz8eTX24EREzfYIiICIiAiIhSIiEIiICIiAiIgJkTEQJuoGxsHbqOxHWQmRJ4gXQqdDyO47Xz9YG98P4YPEJYugx+g3+89jOH8L4KjDd68xbLfYAafedyaY+nyfy8/Lk/50z7TK77b6f2+9SIMz7yvKxEk+/3kYGhxq0/qJrzb49flPtNKdRjl1UpYuXKSTryH8mVpV67f5pMuRpXTX1/zT2hGImIhNsiXpw5Gp9vWVJoQx2BF/wBpuExXWM2ExESOyaHjWHmwMTtTfQ3N+U8Wl4eIOqsPsZK04745y/2PFxAiZPvkREBERAREQEREBERAREQEREBERATIiIHqfhnEU4eIF0prK9LHI9NJ2YiaY+nxvyP9tJkRErBk7bbGvrt+DIxEDX4pGalVb5nt7zTfh3G6n8j6zETnyu9NLwY3Dy+QMOewBodT1/n2lcRNHjSVCdhLk4UnciIkdyRJsAektUUKiIGYiIdEjifK3ofxEQs9vDLsJmImL9EREQEREBERA//Z)
 
 
 **2. Learning Goals: Since this is a team project, you may want to articulate both shared and individual learning goals.**
 
-This project&#39;s objective aligns with our desire to seek new ways to increase efficiency in our everyday lives and make small contributions to saving the environment by reducing food waste in our homes. To do so, we hope to improve and build confidence in our coding upon completing this project on an individual level as we will be exposed to new tools and functions on Python beyond class content.
+This project's objective aligns with our vision to spread awareness of mental illness. It is very common, but people to tends to disregard the issue until it is very severe. To do so, we hope to improve and build confidence in our coding upon completing this project on an individual level as we will be exposed to new tools and functions on Python beyond class content.
 
-On a team level, we hope to get our hands on a complete software development life cycle, which involves heavy collaboration, teamwork, planning, and execution. Though the COVID-19 pandemic prevented us from returning to campus, we are fortunate enough to be in the same geographic location. On that note, we aim to use that to our advantage in setting up in-person meetings to discuss our concerns, findings, and potential ideas. Overall, we hope to move forward together as a team and feel what it is like to start programming from scratch.
+On a team level, we hope to get our hands on a complete software development life cycle, which involves heavy collaboration, teamwork, planning, and execution. Because the COVID-19 pandemic prevented us from returning to campus, we are unfortunately in different  geographic location. On that note, we aim to use pair coding and online tools to discuss our concerns, findings, and potential ideas. Overall, we hope to move forward together as a team and feel what it is like to start programming from scratch.
 
-**3. Implementation Plan: this will probably be pretty vague initially. Perhaps at this early juncture, you will have identified a library or a framework that you think will be useful for your project. If you don&#39;t have any idea how you will implement your project, provide a rough plan for how you will determine this information.**
+**3. Implementation Plan: this will probably be pretty vague initially. Perhaps at this early juncture, you will have identified a library or a framework that you think will be useful for your project. If you don't have any idea how you will implement your project, provide a rough plan for how you will determine this information.**
 
-In implementing our project plan, we will be using the following two libraries:
-
-- OpenCV: to work with images using an IP webcam
-- Pytessaract for optical character recognition (OCR)
+In implementing our project plan, we will be using chatbox tools and flask. By building a responsive chatbox that keeps track of the end user's answers through python code, we will be use flask to build an html web page. 
 
 We are aware that our knowledge of coding is very limited. Hence, we will be consulting online sources and experts in the field, for instance, Professor Li or friends who do Python for their job, for advice and guidance when needed.
 
@@ -35,39 +32,27 @@ We are aware that our knowledge of coding is very limited. Hence, we will be con
 
 | **Week** | **Task**           | **Details**                                                                                              |
 | -------- | ------------------ | -------------------------------------------------------------------------------------------------------- |
-| Week 1   | Idea generation    | Narrowing down the scope and determining our project idea, doing preliminary research.                   |
-| Week 2   | Consulting         | Consult with Professor Li on how to take on the project. Have drafted steps of how to approach the task. |
-| Week 3   | Research           | Research and learn about the open sources on the internet. Get familiar with the two libraries.          |
-| Week 4   |
+| Week 1   | Idea generation, Consulting, Research    | Narrowing down the scope and determining our project idea, doing preliminary research. Have drafted steps of how to approach the task. Learn about the open sources on the internet. Get familiar with the libraries.                   |
+| Week 2   | Initial test run         | Write initial codes and perform test run. In class demo day  |
+| Week 3   | Project completion           | Fix minor bugs and finalize our project, ready to be used and presented to the class                  |
 |          |
-|          |
-| Week 5   |
-|          |
-|          |
-| Week 6   |
-|          |
-|          |
-| Week 7   |
-|          |
-|          |
-| Week 8   | Project completion | Fix minor bugs and finalize our project, ready to be used and presented to the class                     |
 
 **5. Collaboration plan: How do you plan to collaborate with your teammates on this project? Will you split tasks up, complete them independently, and then integrate? Will you pair program the entire thing? Make sure to articulate your plan for successfully working together as a team. This might also include information about any software development methodologies you plan to use (e.g. agile development). Make sure to make clear why you are choosing this particular organizational structure.**
 
-The organizational structure we will be adapting is a combination of individual research, pair and group programming sessions. Individual research will be done in the earlier stages of the project. The choice to assign this task individually is to widen our research scope as we will now have three, not one, parties conducting the research. After our preliminary study, we will be applying the pair and group programming system as we believe coming up with the code is a crucial part of the project. As mentioned above, our team can set up face-to-face meetings; thus, we hope to meet weekly and before turning in our deliverables.
+The organizational structure we will be adapting is a combination of individual research, pair and group programming sessions. Individual research will be done in the earlier stages of the project. The choice to assign this task individually is to widen our research scope as we will now have three, not one, parties conducting the research. After our preliminary study, we will be applying the pair and group programming system as we believe coming up with the code is a crucial part of the project. Thus, we hope to meet weekly and before turning in our deliverables.
 
 **6. Risks: What do you view as the biggest risks to the success of this project?**
 
-We are all equally inexperienced in Python; therefore, it would be difficult to support each other when coding issues arise. Time is also a risk because, in eight weeks, we have to learn and apply the new knowledge to the project while working on other personal things. We address the risk by narrowing down the project&#39;s scope; therefore, it will increase the feasibility, and the goals will be more achievable.
+We are all equally inexperienced in Python; therefore, it would be difficult to support each other when coding issues arise. Time is also a risk because, in eight weeks, we have to learn and apply the new knowledge to the project while working on other personal things. We address the risk by narrowing down the project's scope; therefore, it will increase the feasibility, and the goals will be more achievable.
 
 **7. Additional Course Content: What are some topics that we might cover in class that you think would be especially helpful for your project?**
 
-OpenCV: to work with images using IP webcam
+chatbox implementation
 
-Pytessaract for optical character recognition (OCR)
+more on html
 
 Progressive Web App
 
-![](https://files.microscan.com/Technology/OCR/ocr_examples.jpg)
+![](https://d2sslp958cft0.cloudfront.net/wp-content/uploads/2017/02/02103454/Muti-Depression-Test-1.png)
 
 
