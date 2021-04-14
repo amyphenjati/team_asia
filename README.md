@@ -1,8 +1,11 @@
 [Telegram Bot](https://web.telegram.org/#/im?p=@team_asia_bot)
 
-work after run main.py
+works only after run main.py
 
-### 4.5 Project Website
+
+
+
+### [Project Website](https://amyphenjati.github.io/team_asia/)
 
 - The final website is worth 10% of the project grade
   
