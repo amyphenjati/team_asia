@@ -3,8 +3,4 @@
 works only after run main.py
 
 
-
-
-
-
-### [Project Website](https://amyphenjati.github.io/team_asia.github.io/)
+### [Project Website](https://amyphenjati.github.io/team_asia/)
