@@ -3,4 +3,4 @@ If you answered "yes" to three or more of these questions, and you have felt thi
 you may be experiencing depression and should seek a full assessment by a psychiatrist, mental health counselor or other health care professional.
 If you answered "yes" to question 10, you should seek help immediately, regardless of your answer to any other questions.
 
-Learn more about our research on depression at https://amyphenjati.github.io/team_asia.github.io/learn_more.html
+"Learn more about our research on depression here (https://amyphenjati.github.io/team_asia/learn_more.html)"
