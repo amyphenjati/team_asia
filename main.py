@@ -34,7 +34,7 @@ def send_message(chat_id, message_text):
 
 
 # create main function for navigate or reply message back
-def main():
+def dice_game():
     update_id = last_update(url)["update_id"]
     while True:
         update = last_update(url)
@@ -54,4 +54,9 @@ def main():
 
 
 # call the function to make it reply
-main()
+def main():
+    dice_game()
+
+
+if __name__ == "__main__":
+    main()
