@@ -2,7 +2,6 @@
 
 works only after run main.py
 
-[learn more](learn_more.html)
 
 
 
