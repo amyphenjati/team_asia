@@ -34,6 +34,9 @@ def q_a(msg):
                 else:
                     bot.sendMessage(chat_id, text="please start over")
             bot.sendMessage(chat_id, text=yes_count)
+    
+    elif msg['text'] == '/learn':
+        bot.sendMessage(chat_id, 'Learn more at https://amyphenjati.github.io/team_asia/learn_more.html')
 
 
 bot = telepot.Bot(token)
