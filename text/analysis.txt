@@ -1,11 +1,11 @@
 RESULT: 
-if >=3 yes
+if yes >= 3 
 "You've answered 3 or more "yes" to these questions. If you have felt this way most every day for several weeks,
 you may be experiencing depression and should seek a full assessment by a psychiatrist, mental health counselor or other health care professional.
 If you answered "yes" to question 10, you should seek help immediately, regardless of your answer to any other questions."
 
 Learn more about our research on depression here (https://amyphenjati.github.io/team_asia/learn_more.html)"
 
-if <3 yes
+if yes < 3 
 You are problably stressed. Don't worry, try meditating!
 BUT if you answered "yes" to question 10, you should seek help immediately, regardless of your answer to any other questions.
