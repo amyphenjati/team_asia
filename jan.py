@@ -1,18 +1,43 @@
 TOKEN = '1733137548:AAEMqq-UKBhfVcLD-ReXzHtQW49eJmIoEBA'
 
 """
-Telegram bot for basic mental health check.
+Basic example for a bot that works with polls. Only 3 people are allowed to interact with each
+poll/quiz the bot generates. The preview command generates a closed poll/quiz, exactly like the
+one the user sends the bot
 """
 import logging
-from telegram import *
-from telegram.ext import *
 
-logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
+from telegram import (
+    Poll,
+    ParseMode,
+    KeyboardButton,
+    KeyboardButtonPollType,
+    ReplyKeyboardMarkup,
+    ReplyKeyboardRemove,
+    Update,
+)
+from telegram.ext import (
+    Updater,
+    CommandHandler,
+    PollAnswerHandler,
+    PollHandler,
+    MessageHandler,
+    Filters,
+    CallbackContext,
+)
+
+logging.basicConfig(
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO
+)
 logger = logging.getLogger(__name__)
+
 
 def start(update: Update, _: CallbackContext) -> None:
     """Inform user about what this bot can do"""
-    update.message.reply_text(f'Hello, I am your personal consultant. Your mental health is very important, so let check in on how you are doing! We will now be asking you 10 yes/no questions. Type /poll to continue or /help to learn more.')
+    update.message.reply_text(
+        'Please select /poll to get a Poll, /quiz to get a Quiz or /preview'
+        ' to generate a preview for your poll'
+    )
 
 def poll(update: Update, context: CallbackContext) -> None:
     """Sends a predefined poll"""
@@ -67,15 +92,16 @@ def receive_poll_answer(update: Update, context: CallbackContext) -> None:
     if questions[selected_options[0]] == "Yes":
         all_data[answer['user']['id']] = all_data.get(answer['user']['id'],0) + 1
     total_num_ans[answer['user']['id']] = total_num_ans.get(answer['user']['id'],0) + 1
-    if total_num_ans[answer['user']['id']] == 10 and all_data[answer['user']['id']]/10.0 > 0.3:
+    if total_num_ans[answer['user']['id']] == 10 and all_data[answer['user']['id']]/10.0 > 0.5:
         context.bot.send_message(
             context.bot_data[poll_id]["chat_id"],
-            f"All done, {update.effective_user.mention_html()}. You have answered yes {all_data[answer['user']['id']]} questions. If you have felt this way most every day for several weeks, you may be experiencing depression and should seek a full assessment by a psychiatrist, mental health counselor or other health care professional. If you answered yes to question 10, you should seek help immediately, regardless of your answer to any other questions.", 
+            f"user ID {answer['user']['id']} yes counts {all_data[answer['user']['id']]}", # prints dictionary that collects reponse in all_data
             parse_mode=ParseMode.HTML,)
     elif total_num_ans[answer['user']['id']] == 10:
         context.bot.send_message(context.bot_data[poll_id]["chat_id"],
-            f"Seems like you are doing just fine, {update.effective_user.mention_html()}. Have a nice day!", # prints dictionary that collects reponse in all_data
+            f"{update.effective_user.mention_html()}, you are fine :)", # prints dictionary that collects reponse in all_data
             parse_mode=ParseMode.HTML,)
+
 
 def help_handler(update: Update, _: CallbackContext) -> None:
     """Display a help message"""
