@@ -1,6 +1,10 @@
-[Telegram Bot](https://web.telegram.org/#/im?p=@team_asia_bot)
+[Telegram Bot](https://web.telegram.org/#/im?p=@yourpersonalconsultantbot)
 
-works only after run main.py
+in command prompt:\
+pip install python-telegram-bot
+
+run main.py\
+*to retake the poll, have to rerun main.py each time
 
 
 ### [Project Website](https://amyphenjati.github.io/team_asia/)
