@@ -1,4 +1,5 @@
 <p align="center">
+  <br>
   <samp>
     <br><b><a rel="nofollow noopener noreferrer" target="_blank" href="https://amyphenjati.github.io/team_asia/">Our Project Website</a></b><br>
 </samp>
@@ -6,6 +7,7 @@
 </p>
 
 <p align="center">
+  <br>
   <samp>
     <br><b><a rel="nofollow noopener noreferrer" target="_blank" href="https://web.telegram.org/#/im?p=@yourpersonalconsultantbot">Our Telegram Bot</a></b><br>
 </samp>
@@ -18,7 +20,7 @@
   <samp>
     <b>User Instructions</b>
     
-   To use Personal Consultant Bot:
+    To use Personal Consultant Bot:
     
       1. Create a Telegram account
      
