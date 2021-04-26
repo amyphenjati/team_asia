@@ -35,7 +35,7 @@ def poll(update: Update, context: CallbackContext) -> None:
         "10. I think about dying or killing myself.",
     ]
     questions = ["Yes", "No"]
-    for i in range(10):
+    for i in range(10): # bot will send all 10 questions with yes/no options
         message = context.bot.send_poll(
             update.effective_chat.id,
             question_list[i],
@@ -55,14 +55,14 @@ def poll(update: Update, context: CallbackContext) -> None:
         context.bot_data.update(payload)
 
 
-all_data = {}
-total_num_ans = {}
+all_data = {} # new dictionary collecting all data
+total_num_ans = {} # dictionary counting total number of answers
 
 
 def receive_poll_answer(update: Update, context: CallbackContext) -> None:
     """Summarize a users poll vote"""
     answer = update.poll_answer
-    print(answer)
+    # print(answer)
     poll_id = answer.poll_id
     try:
         questions = context.bot_data[poll_id]["questions"]
@@ -73,21 +73,21 @@ def receive_poll_answer(update: Update, context: CallbackContext) -> None:
     answer_string = ""
     global all_data
     global total_num_ans
-    if answer["user"]["id"] not in all_data:
+    if answer["user"]["id"] not in all_data: # if user answers all no's
         all_data[answer["user"]["id"]] = 0
-    if questions[selected_options[0]] == "Yes":
+    if questions[selected_options[0]] == "Yes": # count number of yes's
         all_data[answer["user"]["id"]] = all_data.get(answer["user"]["id"], 0) + 1
     total_num_ans[answer["user"]["id"]] = total_num_ans.get(answer["user"]["id"], 0) + 1
     if (
         total_num_ans[answer["user"]["id"]] == 10
         and all_data[answer["user"]["id"]] / 10.0 > 0.3
-    ):
+    ): # if all 10 questions are answered and user answers more than 3 yes's
         context.bot.send_message(
             context.bot_data[poll_id]["chat_id"],
             f"All done, {update.effective_user.mention_html()}. You have answered yes {all_data[answer['user']['id']]} questions. If you have felt this way most every day for several weeks, you may be experiencing depression and should seek a full assessment by a psychiatrist, mental health counselor or other health care professional. If you answered yes to question 10, you should seek help immediately, regardless of your answer to any other questions.",
             parse_mode=ParseMode.HTML,
         )
-    elif total_num_ans[answer["user"]["id"]] == 10:
+    elif total_num_ans[answer["user"]["id"]] == 10: # for cases where users answer less than 3 yes's
         context.bot.send_message(
             context.bot_data[poll_id]["chat_id"],
             f"{update.effective_user.mention_html()}, you are problably stressed. Don't worry, try meditating! BUT if you answered 'yes' to question 10, you should seek help immediately, regardless of your answer to any other questions.",  # prints dictionary that collects reponse in all_data
