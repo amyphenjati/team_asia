@@ -18,10 +18,7 @@ logger = logging.getLogger(__name__)
 
 def start(update: Update, _: CallbackContext) -> None:
     """Function replies users with a greeting message after users sends /start"""
-    update.message.reply_text(f"Hello, I am your personal consultant. 
-    Your mental health is very important, so let check in on how you are doing! 
-    We will now be asking you 10 yes/no questions. 
-    Type /poll to continue or /help to learn more.")
+    update.message.reply_text(f"Hello, I am your personal consultant. Your mental health is very important, so let check in on how you are doing! We will now be asking you 10 yes/no questions. Type /poll to continue or /help to learn more.")
 
 
 def poll(update: Update, context: CallbackContext) -> None:
@@ -86,20 +83,13 @@ def receive_poll_answer(update: Update, context: CallbackContext) -> None:
     if (total_num_ans[answer["user"]["id"]] == 10 and all_data[answer["user"]["id"]] / 10.0 > 0.3): # if all 10 questions are answered and user answers more than 3 yes's
         context.bot.send_message(
             context.bot_data[poll_id]["chat_id"],
-            f"All done, {update.effective_user.mention_html()}. 
-            You have answered yes {all_data[answer['user']['id']]} questions. 
-            If you have felt this way most every day for several weeks, you may be experiencing depression 
-            and should seek a full assessment by a psychiatrist, mental health counselor or other health care professional. 
-            If you answered yes to question 10, you should seek help immediately, regardless of your answer to any other questions.
-            Learn more at https://amyphenjati.github.io/team_asia/learn_more.html",
+            f"All done, {update.effective_user.mention_html()}. You have answered yes {all_data[answer['user']['id']]} questions. If you have felt this way most every day for several weeks, you may be experiencing depression and should seek a full assessment by a psychiatrist, mental health counselor or other health care professional. If you answered yes to question 10, you should seek help immediately, regardless of your answer to any other questions.Learn more at https://amyphenjati.github.io/team_asia/learn_more.html",
             parse_mode=ParseMode.HTML,
         )
     elif total_num_ans[answer["user"]["id"]] == 10: # for cases where users answered less than 3 yes's
         context.bot.send_message(
             context.bot_data[poll_id]["chat_id"],
-            f"{update.effective_user.mention_html()}, you are problably stressed. 
-            Don't worry, try meditating! BUT if you answered 'yes' to question 10, you should seek help immediately, 
-            regardless of your answer to any other questions.",
+            f"{update.effective_user.mention_html()}, you are problably stressed. Don't worry, try meditating! BUT if you answered 'yes' to question 10, you should seek help immediately, regardless of your answer to any other questions.",
             parse_mode=ParseMode.HTML,
         )
 
