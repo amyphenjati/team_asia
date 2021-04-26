@@ -1,10 +1,36 @@
-[Telegram Bot](https://web.telegram.org/#/im?p=@yourpersonalconsultantbot)
+<p align="center">
+  <br>
+  <samp>
+    <b>Personal Consultant Bot</b>
+    
+    User Instructions
 
-in command prompt:\
-pip install python-telegram-bot
+      1. Create a Telegram account
+      2. in command prompt:
+          pip install python-telegram-bot
+      3. Run main.py
+      5. Search @yourpersonalconsultantbot on Telegram      
+      6. Start your consultation
+      
+      Remark:
+      - Bot will only work once per user as it collects userID and counts number of questions answered which cannot exceed 10
+      - In order for a user to do a second trial, python terminal must be cleared and re-run
+ </samp>
 
-run main.py\
-*to retake the poll, have to rerun main.py each time
+<p align="center">
+  <br>
+  <samp>
+    <b><a rel="nofollow noopener noreferrer" target="_blank" href="https://amyphenjati.github.io/team_asia/">Our Project Website</a></b>.
+</samp>
+      <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="200"/>
+</p>
+
+<p align="center">
+  <br>
+  <samp>
+    <b><a rel="nofollow noopener noreferrer" target="_blank" href="https://web.telegram.org/#/im?p=@yourpersonalconsultantbot">Our Telegram Bot</a></b>.
+</samp>
+      <img src="https://media.giphy.com/media/ya4eevXU490Iw/giphy.gif" width="200"/>
+</p>
 
 
-### [Project Website](https://amyphenjati.github.io/team_asia/)
