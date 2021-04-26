@@ -20,14 +20,14 @@
   <samp>
     <b>User Instructions</b>
     
-    To use Personal Consultant Bot:
+   To use Personal Consultant Bot:
     
       1. Create a Telegram account
      
       2. in command prompt:
           pip install python-telegram-bot
       
-      3. Run main.py
+      3. From team_asia repo, download and run main.py
       
       4. Search @yourpersonalconsultantbot on Telegram      
       6. Start your consultation
