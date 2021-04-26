@@ -3,7 +3,7 @@
   <samp>
     <br><b><a rel="nofollow noopener noreferrer" target="_blank" href="https://amyphenjati.github.io/team_asia/">Our Project Website</a></b><br>
 </samp>
-      <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="100"/>
+      <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="200"/>
 </p>
 
 <p align="center">
